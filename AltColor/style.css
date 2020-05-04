@@ -1,0 +1,19 @@
+#list-wrapper{
+    width: 1000px;
+    height: 500px;
+    background-color: yellowgreen;
+    border: 1px solid black;
+}
+
+li{
+    background-color:red;
+    border: 2px solid black;
+    padding: 10px;
+    height: 20px;
+    width: 900px;
+}
+
+li:nth-child(2n+2){
+    background-color: blue;
+    font-weight: bold;
+}
